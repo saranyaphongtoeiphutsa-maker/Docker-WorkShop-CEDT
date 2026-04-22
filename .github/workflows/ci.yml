@@ -3,9 +3,7 @@ name: CI
 # TODO(step-6a): trigger the workflow on push targeting the `main` branch.
 on:
     push:
-        branches: [ "main"]
-    pull_request:
-        branches: [ "main" ]
+        branches: [ main ]
 
 env:
   IMAGE_NAME: workshop-app
